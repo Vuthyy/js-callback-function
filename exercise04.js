@@ -10,7 +10,6 @@ function writeFile(filePath, content, callback) {
   });
 }
 
-// Example usage:
 writeFile("output.txt", "Hello, world!!", () =>
   console.log("File written successfully!!")
 );

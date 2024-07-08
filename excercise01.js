@@ -1,5 +1,9 @@
 function squareArray(arr, getSquare) {
-  return arr.map(getSquare);
+  const result = [];
+  for (let i = 0; i < arr.length; i++) {
+    result.push(getSquare(arr[i]));
+  }
+  return result;
 }
 
 const square = (num) => num * num;
