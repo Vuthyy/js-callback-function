@@ -24,7 +24,7 @@ readFile("input.txt", (data) => {
   const modifiedData1 = data + "\nFirst modification";
   writeFile("output1.txt", modifiedData1, () => {
     readFile("output1.txt", (data) => {
-      const modifiedData2 = data + "\nSEcond modification";
+      const modifiedData2 = data + "\nSecond modification";
       writeFile("output2.txt", modifiedData2, () => {
         readFile("output2.txt", (data) => {
           console.log(data);

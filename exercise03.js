@@ -10,5 +10,4 @@ function readFile(filePath, getReadFle) {
   });
 }
 
-// Example usage:
 readFile("input.txt", console.log);
